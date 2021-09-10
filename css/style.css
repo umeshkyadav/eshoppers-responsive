@@ -1,0 +1,186 @@
+body{
+	font-size: 14px;
+	color: #696763;
+}
+
+.header-top{
+	background-color: #ddd;
+	padding: 10px 0;
+}
+.header-top .nav-pills > li{
+	float:right;
+}
+.header-top .nav-pills > li > a{
+	padding: 5px;
+	color: #212121;
+	margin: 0 10px;
+}
+.header-top .nav > li > a:hover{
+	color:orange;
+}
+.header-mid{
+	padding: 10px 0;
+}
+.header-mid .nav-pills > li{
+	float: none;
+	display: inline-block;
+}
+.header-mid .nav > li > a{
+	color: #696763;
+}
+.header-mid .nav > li > a:hover{
+	color:orange;
+}
+.slider-text{
+	margin-top: 100px;
+	margin-left: 100px;
+}
+.carousel-control.left,
+.carousel-control.right{
+	background-image:none;
+}
+.arrow{
+	color: orange;
+}
+.sidebar .panel-body{
+	padding: 5px;
+}
+.sidebar .list-group-item{
+	border: none;
+}
+.sidebar .panel-title{
+	text-align: center;
+}
+.product{
+	border: 1px solid #eee;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.product .price{
+	font-size: 24px;
+	color: orange;
+	font-weight: bold;
+}
+
+.product-img{
+	margin-left:auto;
+	margin-right:auto;
+}
+.slider{
+	margin-bottom: 50px;
+}
+.tab-pane{
+	margin-top: 20px;
+}
+.product-tabs .nav-tabs{
+	background-color: #212121;
+	border-bottom: 2px solid orange;
+}
+
+.product-tabs .nav-tabs>li>a{
+	border:none;
+	border-radius:0;
+	color:#fff;
+}
+.product-tabs .nav-tabs>li>a:hover{
+	border-color: orange;
+	border:none;
+}
+
+.product-tabs .nav-tabs>.active>a{
+	background-color:orange;
+}
+.text-center2{
+	text-align: center;
+	color: orange;
+	font-size: 18px;
+	margin-bottom: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+footer{
+	background-color: #f0f0e9;
+	padding: 20px 0;
+}
+.footer-text h6{
+	font-size: 28px;
+}
+.footer-text p{
+	font-size: 12px;
+}
+.iframe{
+	text-align: center;
+}
+.iframe img{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin: auto;
+}
+.site-links h6{
+	font-size: 16px;
+	font-weight: bold;
+}
+.site-links ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.site-links ul > li{
+	margin-bottom: 10px;
+}
+.site-links ul > li > a{
+	color: #212121;
+	font-size: 14px;
+}
+
+.footer-form h6{
+	font-size: 16px;
+	color: #212121;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-form form{
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+	.map{
+		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.info{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.header-top .nav-pills > li{
+		float: none;
+		display: inline-block;
+	}
+	.header-top .nav{
+		text-align: center;
+	}
+
+	.header-mid img{
+		display: block;
+		margin: auto;
+	}
+	.header-mid .nav{
+		text-align: center;
+
+	}
+	.product-tabs .nav-tabs > li{
+		width: 50%;
+	}
+	.carousel-indicators{
+		display: none;
+	}
+
+	.slider-text{
+		margin: 50px;
+	}
+
+}
